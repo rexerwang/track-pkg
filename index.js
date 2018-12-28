@@ -86,7 +86,7 @@ function print(data) {
     if (i === 0) out = chalk.bold(out)
     console.log(out)
   }
-  console.log(chalk.cyan('\n命令行追踪快递包裹，贼鸡儿6 😀'))
+  console.log(chalk.cyan('\n命令行追踪快递包裹，贼鸡儿6😀'))
 }
 
 program
@@ -95,7 +95,7 @@ program
   .option('-n, --number [type]', 'express number')
   .parse(process.argv)
 
-let number = program.number || process.argv[2]
+const number = program.number || process.argv[2]
 
 if (/^\d*$/.test(number)) {
   console.log(chalk.yellow('快递单号: ' + chalk.underline(number)))

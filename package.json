@@ -1,6 +1,6 @@
 {
   "name": "track-pkg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "track your express package in terminal!",
   "main": "index.js",
   "bin": {
@@ -17,6 +17,10 @@
   ],
   "author": "rexerwang",
   "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rexerwang/track-pkg.git"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "chalk": "^2.4.1",
