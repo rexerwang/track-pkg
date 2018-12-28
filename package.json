@@ -1,0 +1,26 @@
+{
+  "name": "track-pkg",
+  "version": "0.0.1",
+  "description": "track your express package in terminal!",
+  "main": "index.js",
+  "bin": {
+    "track-pkg": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "track-package",
+    "express-track",
+    "查快递",
+    "命令行查快递"
+  ],
+  "author": "rexerwang",
+  "license": "WTFPL",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "ora": "^3.0.0"
+  }
+}
